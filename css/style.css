@@ -1,0 +1,437 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand; }
+
+#main-header {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1.5px solid #4CAF50; }
+
+#home-icons {
+  border-bottom: 1.5px solid #4CAF50; }
+
+nav ul {
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    padding: 15px; }
+
+nav a {
+  text-decoration: none !important;
+  color: black;
+  font-size: 20px; }
+
+nav a:hover {
+  color: #4CAF50; }
+
+.active {
+  color: #4CAF50; }
+
+.carousel-item {
+  height: 100vh; }
+
+.carousel-caption {
+  padding-bottom: 300px; }
+  .carousel-caption h1 {
+    text-transform: uppercase;
+    font-size: 35px; }
+  .carousel-caption p {
+    font-size: 20px;
+    text-transform: capitalize; }
+
+.carousel-image-1 {
+  background: url("../img/stretch.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/curl.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/toned.jpg");
+  background-size: cover; }
+
+.fa {
+  font-size: 30px; }
+
+#classes {
+  background-color: black; }
+  #classes h1 {
+    color: white; }
+  #classes a {
+    text-decoration: none; }
+
+.options {
+  color: white;
+  padding: 3.5rem 3rem 0;
+  margin: 0px;
+  font-size: 15px; }
+  .options i {
+    font-size: 22px;
+    float: left;
+    padding-right: 2em; }
+  .options h6 {
+    float: center; }
+  .options p {
+    margin-left: 3em;
+    font-size: 17px;
+    color: #898888; }
+
+#info {
+  background-color: rgba(0, 0, 0, 0.2); }
+  #info i {
+    color: #4CAF50; }
+
+.flex-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.cell {
+  position: relative;
+  width: calc(25%);
+  max-height: 36vh;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .cell p {
+    position: absolute;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 5px;
+    color: #4CAF50;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%, -50%);
+    display: none;
+    align-items: flex-start; }
+
+.cell:hover img {
+  opacity: 0.1;
+  transition: opacity .8s ease-in-out;
+  background: red; }
+
+.cell:hover p {
+  display: inline-block;
+  transition: .8s ease-in-out; }
+
+.cell img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  transition: transform .5s ease-in-out; }
+
+.bg {
+  background-color: #4CAF50;
+  top: 50%;
+  left: 50%;
+  z-index: -1; }
+
+footer#main-footer {
+  background: #4CAF50;
+  color: #fff;
+  font-size: 1.4em; }
+
+#newsletter {
+  background-color: #4CAF50; }
+
+#page-header {
+  height: 80vh;
+  background: url("../img/about.jpeg");
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 15rem; }
+  #page-header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #page-header p {
+    font-size: 25px; }
+
+#services-header {
+  height: 80vh;
+  background: url("../img/stretch.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 15rem; }
+  #services-header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #services-header p {
+    font-size: 25px; }
+
+#blog-header {
+  height: 80vh;
+  background: url("../img/boxer.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 15rem; }
+  #blog-header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #blog-header p {
+    font-size: 25px; }
+
+#services .card-header {
+  background-color: #4CAF50;
+  color: white; }
+
+#about {
+  text-transform: uppercase;
+  height: 150px;
+  background-color: #4CAF50;
+  color: white; }
+  #about h1 {
+    padding-top: 40px;
+    font-size: 50px; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background: #333; }
+
+#contactdisplay {
+  height: 70vh;
+  background: url("../img/lgpress.jpeg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 14vh; }
+  #contactdisplay h1 {
+    font-size: 60px;
+    padding-top: 100px; }
+
+#map {
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 1px; }
+
+#map-section h3 {
+  font-size: 2.5em; }
+
+#contact-links {
+  height: 500px;
+  width: 100%;
+  margin-top: 0;
+  background: #000;
+  color: #fff; }
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em; }
+  .options h6 {
+    font-family: 'Lobster Two', cursive; }
+  .options p {
+    color: #827e7e; }
+
+ul {
+  list-style-type: none; }
+
+.card .fa {
+  font-size: 15px; }
+
+.card li {
+  font-size: 14px;
+  padding: 7px; }
+
+#getinshape {
+  height: 700px;
+  background: url("../img/boxer.jpeg");
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+  #getinshape a {
+    text-decoration: none; }
+  #getinshape p {
+    font-size: 1.3em; }
+
+.gallery-item {
+  position: relative; }
+  .gallery-item img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transition: transform 0.8s ease; }
+
+.gallery-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: 0.6s ease;
+  opacity: 0; }
+
+.gallery-desc:hover {
+  opacity: 1;
+  color: white; }
+
+.team-item {
+  position: relative; }
+
+.image {
+  display: block;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden; }
+
+.image:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0); }
+
+.middle {
+  position: absolute;
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.team-item {
+  filter: grayscale(10%);
+  -webkit-filter: grayscale(100%); }
+
+.team-item:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0); }
+
+.team-item:hover .middle {
+  opacity: 1; }
+
+.team-desc {
+  background-color: #4CAF50;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px; }
+  .team-desc h6 {
+    font-weight: bold;
+    font-size: 20px; }
+
+.team-social li {
+  display: inline-block; }
+
+.team-social i {
+  font-size: 18px;
+  color: white;
+  padding-right: 10px; }
+
+.social-item {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px; }
+  .social-item i:hover {
+    color: #4CAF50; }
+
+#schedule a {
+  text-decoration: none;
+  color: #4CAF50; }
+
+#schedule a:hover {
+  color: white; }
+
+.schedule-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px; }
+
+.schedule-font {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #4CAF50; }
+
+.button {
+  background-color: white;
+  border: solid 1px #3ab54a;
+  display: block;
+  padding: 0.8rem 4.5rem 1rem;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px; }
+
+.button1 {
+  background-color: #3ab54a;
+  color: white;
+  border: solid 1px #3ab54a;
+  display: block;
+  padding: 0.8rem 5.5rem 1rem;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px; }
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: solid 1px #3ab54a;
+  display: block;
+  padding: 0.3rem 5.5rem;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px; }
+
+.button:hover {
+  background-color: #3ab54a;
+  transition: .6s ease;
+  color: white; }
+
+.button1:hover {
+  background-color: transparent;
+  transition: .6s ease;
+  color: white; }
+
+.schedule-desc {
+  text-align: center;
+  text-transform: capitalize; }
+  .schedule-desc p {
+    font-size: 18px; }
+
+.tab {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid green;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 1em;
+  top: 50%;
+  left: 20%; }
+  .tab button {
+    background-color: white;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 0.8rem 3.5rem;
+    border: none;
+    transition: 0.5s; }
+  .tab button.active {
+    background-color: #3ab54a;
+    color: white; }
+  .tab button:hover {
+    background-color: #3ab54a; }
+
+.tabcontent {
+  padding-left: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; }
+
+.hidden {
+  display: none; }
